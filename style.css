@@ -1,0 +1,105 @@
+/* CSS reset */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+.profile-card {
+  width: 580px;        /*kicsit szélesebbre vettem*/
+  max-width: calc(100vw - 100px);
+  background-color: hsla(0, 0%, 100%, .5);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+}
+
+body {
+  font-family: Tahoma, sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('assets/mb-207.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.head, .links {
+  text-align: center;
+}
+
+.head, .content {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.content, .links {
+  border-top: 1px solid hsla(0, 0%, 30%, .8);
+}
+
+ .about, .head {
+  margin-bottom: 3%;
+}
+
+.content {
+  padding: 3%;
+}
+
+/* Profile image */
+
+img {
+  width: 170px;
+  height: 170px;
+  border-radius: 5%;
+  padding: 1px;
+  background-color: #666;
+  filter: grayscale(40%);
+  transition: all 0.5s ease-in-out;
+}
+
+.profile-image {
+  margin-top: -85px;
+}
+
+img:hover {
+  filter: grayscale(20%);
+  transform: scale(2);
+}
+
+/* headers, paragraphs, misc */
+
+h1 {
+  text-transform: uppercase;
+  font-size: 36px;
+}
+
+h2 {
+  font-weight: normal;
+  font-size: 26px;
+  margin-bottom: 5px;
+}
+
+p {
+  font-weight: normal;
+  font-size: 20px;
+}
+
+span {
+  color: hsla(0, 0%, 20%, .9);
+}
+
+/* Contact links */
+
+a {
+  color: hsla(258, 74%, 37%, 0.767);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgba(153, 153, 153, 1);
+}
+
+.links {
+  padding:20px;
+  }
