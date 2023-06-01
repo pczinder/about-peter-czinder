@@ -64,7 +64,7 @@ img {
 
 img:hover {
   filter: grayscale(20%);
-  transform: scale(2);
+  transform: scale(1.7);
 }
 
 /* headers, paragraphs, misc */
