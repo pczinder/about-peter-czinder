@@ -12,7 +12,7 @@
   max-width: calc(100vw - 100px);
   background-color: hsla(0, 0%, 100%, .5);
   border-radius: 4px;
-  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  box-shadow: hsla(0, 0%, 0%, 0.9) 10px 10px 80px;
 }
 
 body {
@@ -92,12 +92,12 @@ span {
 /* Contact links */
 
 a {
-  color: hsla(258, 74%, 37%, 0.767);
+  color: hsla(258, 94%, 48%, 0.767);
   text-decoration: none;
 }
 
 a:hover {
-  color: rgba(153, 153, 153, 1);
+  color: rgb(73, 68, 68);
 }
 
 .links {
